@@ -1,0 +1,122 @@
+/*importar fontes*/
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "TittiliumWeb-Regular";
+    src: url(../fonts/TitilliumWeb/TitilliumWeb-Regular.ttf)
+}
+    
+/*Css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+header{
+    background-color: black;
+    height: 80px;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header logo{
+    width: 280px;
+}
+
+header .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    max-width: 680px;
+}
+
+header .menu a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Roboto-Light";
+    font-weight: 300;
+}
+
+.container-grid{
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*section produtos*/
+
+.produtos{
+    width: 100%;
+    height: 600px;
+    background-color: maroon;
+    border: 1px solid white;
+    background-image: url(../images/banner_pilotos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.produtos .banner-flex{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 600px;
+}
+
+.produtos .banner-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 270px;
+    color: white;
+    border: 1px solid white
+}
+
+.produtos .banner-info h1{
+    font-family: "TittiliumWeb-Regular";
+    font-size: 42px;
+    text-align: center;
+}
+
+.produtos .banner-info p{
+    font-family: "Roboto-Light";
+    text-align: center;
+    font-size: 18px;
+}
+
+.produtos .banner-info a {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-family: "Roboto-Light";
+    width: 250px;
+    height: 50px;
+    background-color: #c31616;
+    border: 1px solid #c31616;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
